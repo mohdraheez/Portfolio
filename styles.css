@@ -570,6 +570,7 @@ a:hover{
     background-color: transparent;
     box-shadow: 0px 0px 2px var(--box-shadow);
     transition: 1000ms;
+    z-index:1;
 
 }
 
@@ -583,6 +584,7 @@ a:hover{
 }
 
 .links{
+    z-index:999;
     width: 100%;
     text-align: right;
     font-size: large;
